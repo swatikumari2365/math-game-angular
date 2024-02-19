@@ -1,0 +1,7 @@
+<form [formGroup]="mathForm">
+    <div class="equation">{{ a }} + {{ b }} = </div>
+    <input appAnswerHighlight formControlName="ans"/>
+</form>
+<div class="stats">
+    {{secpersoln | number:'1.1-3'}}
+</div>
